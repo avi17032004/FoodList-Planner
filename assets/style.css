@@ -1,0 +1,38 @@
+.list-group-item {
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .list-group-item:hover {
+    background-color: #4a47a3;
+    color: white;
+  }
+
+  body {
+    /* background-color: #DCE1E3; */
+    background-color: #bfd7ed;
+  }
+
+  form * {
+    margin-top: 10px;
+  }
+
+  .atag {
+    color: cyan;
+    text-decoration: none;
+  }
+
+  .listItem {
+    margin-left: 30%;
+    width: 40%;
+  }
+
+  li {
+    margin: auto;
+    width: 80%;
+  }
+  .foodListStatistics {
+    padding: 2% 4% 0px 0;
+    font-size: 14px;
+    text-align: right;
+  }

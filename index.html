@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+
+  <body>
+    <header
+      class="d-flex justify-content-center gap-3 align-items-center p-1 text-center"
+      style="background-color: #4a47a3"
+    >
+      <!-- style="background-color: rgb(157, 70, 243)" -->
+      <h1 class="fs-4 text-white fw-semibold">Food Receipee🍜</h1>
+      <a href="About Page.html" class="atag">Credits</a>
+      <a href="Feedback.html" class="atag">Feedback</a>
+    </header>
+
+    <main id="main2" class="text-center">
+      <!-- <div class="mt-3 bg-warning">
+        <p>✅Success Food is Updated!!!</p>
+      </div> -->
+    </main>
+
+    <main class="text-center">
+      <div
+        class="w-50 d-flex shadow justify-content-around rounded-3 py-3 mt-5 mx-auto text-center bg-white border border-white"
+      >
+        <input
+          class="form-control w-75"
+          placeholder="Enter the Food"
+          id="input-data"
+        />
+        <button
+          class="btn text-white px-4"
+          style="background-color: #4a47a3; font-weight: 500; font-size: 18px"
+          id="button-data"
+        >
+          Save
+        </button>
+      </div>
+      <div class="bg-white mt-3 shadow rounded listItem">
+        <h3 class="foodListStatistics" style="color: #6f787f">aa</h3>
+        <ul id="ul" class="list-group pt-3 pb-4"></ul>
+        <div id="no-list" class="pb-4">
+          <img
+            src="https://cdni.iconscout.com/illustration/premium/thumb/empty-state-concept-3428212-2902554.png"
+            alt="Not found"
+            width="60%"
+          />
+          <h6>Create your food items.</h6>
+        </div>
+      </div>
+    </main>
+
+    <!-- Script link -->
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
